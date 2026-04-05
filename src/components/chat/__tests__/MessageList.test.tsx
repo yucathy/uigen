@@ -8,13 +8,6 @@ vi.mock("../MarkdownRenderer", () => ({
   MarkdownRenderer: ({ content }: { content: string }) => <div>{content}</div>,
 }));
 
-// Mock the ToolInvocationBadge component
-vi.mock("../ToolInvocationBadge", () => ({
-  ToolInvocationBadge: ({ toolName }: { toolName: string }) => (
-    <div data-testid="tool-badge">{toolName}</div>
-  ),
-}));
-
 afterEach(() => {
   cleanup();
 });
@@ -85,7 +78,6 @@ test("MessageList renders messages with parts", () => {
   render(<MessageList messages={messages} />);
 
   expect(screen.getByText("Creating your component...")).toBeDefined();
-  expect(screen.getByTestId("tool-badge")).toBeDefined();
   expect(screen.getByText("str_replace_editor")).toBeDefined();
 });
 
