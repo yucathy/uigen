@@ -42,7 +42,7 @@ jobs:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
 
           # This is an optional setting that allows Claude to read CI results on PRs
-          additional_permissions: |
+          custom_instructions: |
             The project is already set up with all the dependencies installed. The server is running on localhost:3000. Logs from it are begin written to logs.txt. If needed, you can query the db with the sqlite3 command line tool. If needed, you can use playwright mcp to interact withe the app.
 
           mcp_config: |
