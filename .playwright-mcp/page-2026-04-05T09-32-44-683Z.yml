@@ -1,0 +1,137 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e51]:
+            - generic [ref=e54]: Create a pricing card component with a title, price, list of features, and a call-to-action button
+            - img [ref=e57]
+          - generic [ref=e60]:
+            - img [ref=e63]
+            - generic [ref=e68]:
+              - generic [ref=e71]: str_replace_editor
+              - separator [ref=e72]
+              - generic [ref=e75]: str_replace_editor
+              - separator [ref=e76]
+              - generic [ref=e77]:
+                - paragraph [ref=e78]:
+                  - text: Done! Created a reusable
+                  - code [ref=e337]: PricingCard
+                  - text: "component with:"
+                - list [ref=e80]:
+                  - listitem [ref=e81]: Title, price, and period
+                  - listitem [ref=e82]: Feature list with checkmark icons
+                  - listitem [ref=e89]: Customizable CTA button with click handler
+                  - listitem [ref=e90]: Clean styling with Tailwind CSS
+                - paragraph [ref=e91]: The App.jsx shows an example usage with sample data.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [ref=e35]
+          - tab "Code" [selected] [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - generic [ref=e93]:
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e101] [cursor=pointer]:
+              - img [ref=e102]
+              - img [ref=e104]
+              - generic [ref=e106]: components
+            - generic [ref=e109] [cursor=pointer]:
+              - img [ref=e110]
+              - generic [ref=e115]: PricingCard.jsx
+          - generic [ref=e117] [cursor=pointer]:
+            - img [ref=e118]
+            - generic [ref=e123]: App.jsx
+        - separator [ref=e124]
+        - code [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e132]:
+              - generic [ref=e340]:
+                - generic [ref=e341] [cursor=pointer]: 
+                - generic [ref=e342]: "1"
+              - generic [ref=e137]: "2"
+              - generic [ref=e344]: "3"
+              - generic [ref=e346]: "4"
+              - generic [ref=e348]: "5"
+              - generic [ref=e350]: "6"
+              - generic [ref=e152]: "7"
+              - generic [ref=e351]:
+                - generic [ref=e352] [cursor=pointer]: 
+                - generic [ref=e353]: "8"
+              - generic [ref=e354]:
+                - generic [ref=e355] [cursor=pointer]: 
+                - generic [ref=e356]: "9"
+              - generic [ref=e357]:
+                - generic [ref=e358] [cursor=pointer]: 
+                - generic [ref=e359]: "10"
+              - generic [ref=e161]: "11"
+              - generic [ref=e163]: "12"
+              - generic [ref=e165]: "13"
+              - generic [ref=e167]: "14"
+              - generic [ref=e360]:
+                - generic [ref=e361] [cursor=pointer]: 
+                - generic [ref=e362]: "15"
+              - generic [ref=e171]: "16"
+              - generic [ref=e173]: "17"
+              - generic [ref=e175]: "18"
+              - generic [ref=e178]: "19"
+              - generic [ref=e368]: "20"
+              - generic [ref=e369]:
+                - generic [ref=e370] [cursor=pointer]: 
+                - generic [ref=e371]: "21"
+              - generic [ref=e372]:
+                - generic [ref=e373] [cursor=pointer]: 
+                - generic [ref=e374]: "22"
+              - generic [ref=e375]:
+                - generic [ref=e376] [cursor=pointer]: 
+                - generic [ref=e377]: "23"
+              - generic [ref=e379]:
+                - generic [ref=e380] [cursor=pointer]: 
+                - generic [ref=e381]: "24"
+              - generic [ref=e383]: "25"
+              - generic [ref=e386]: "26"
+            - generic [ref=e285]:
+              - generic [ref=e502]: "export default function PricingCard({"
+              - generic [ref=e504]: title,
+              - generic [ref=e506]: price,
+              - generic [ref=e508]: period = '',
+              - generic [ref=e510]: features = [],
+              - generic [ref=e512]: buttonText = 'Get Started',
+              - generic [ref=e514]: "onButtonClick = () => {}"
+              - generic [ref=e516]: "}) {"
+              - generic [ref=e518]: return (
+              - generic [ref=e520]: <div className="bg-white rounded-lg shadow-lg p-8
+              - generic [ref=e522]: "{/* Title */}"
+              - generic [ref=e524]: <h2 className="text-2xl font-bold text-gray-900
+              - generic [ref=e527]: "{/* Price */}"
+              - generic [ref=e529]: <div className="mb-6">
+              - generic [ref=e531]: <span className="text-5xl font-bold
+              - generic [ref=e533]: "<span className=\"text-gray-600 ml-2\">{period}"
+              - generic [ref=e535]: </div>
+              - generic [ref=e538]: w-full max-w-sm">
+              - generic [ref=e540]: "mb-2\">{title}</h2>"
+              - generic [ref=e542]: "text-gray-900\">{price}</span>"
+              - generic [ref=e544]: </span>
+              - generic [ref=e546]: "{/* Features List */}"
+              - generic [ref=e548]: <ul className="space-y-3 mb-8">
+              - generic [ref=e550]: "{features.map((feature, index) => ("
+              - generic [ref=e552]: "<li key={index} className=\"flex"
+              - generic [ref=e554]: items-center text-gray-700">
+              - generic [ref=e556]: <svg
+              - generic [ref=e558]: className="w-5 h-5 text-green-500 mr-3
+              - generic [ref=e560]: flex-shrink-0"
+              - generic [ref=e562]: fill="currentColor"
+            - textbox "Editor content" [ref=e335]
+  - alert [ref=e50]
+  - generic [ref=e336]:
+    - alert
+    - alert
