@@ -60,13 +60,13 @@ jobs:
             }
           
           allowed_tools: |
-            Bash(num:*),
+            Bash(npm:*),
             Bash(sqlite3:*),
             mcp__playwright__snapshot,
             mcp__playwright__browser_click,
             mcp__playwright__browser_fill,
             mcp__playwright__browser_navigate
-            
+
 
           # Optional: Give a custom prompt to Claude. If this is not specified, Claude will perform the instructions specified in the comment that tagged it.
           # prompt: 'Update the pull request description to include a summary of changes.'
